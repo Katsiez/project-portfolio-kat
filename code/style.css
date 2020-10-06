@@ -31,11 +31,23 @@ header {
   margin-right: 50px;
   padding-top: 40px;
 }
+.socials {
+  display: block;
+  flex-direction: column;
+  padding-left: 200px;
+  margin-left: 100px;
+  margin-right: 50px;
+  padding-top: 100px;
+}
+a {
+  text-decoration: none;
+  padding: 5px;
+}
 h1 {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  color: #fff0f0;
+  color: #ffffff;
   font-weight: 400;
   letter-spacing: 1px;
   padding-top: 60px;
@@ -44,7 +56,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 52px;
-  color: #fff0f0;
+  color: #ffffff;
   letter-spacing: 1px;
   line-height: 1;
   margin-top: 0;
