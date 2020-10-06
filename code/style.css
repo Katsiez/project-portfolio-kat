@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+/* Main section */
+header {
+  background-color: #835858;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+}
+.header-text {
+  display: block;
+  flex-direction: column;
+  padding-left: 30px;
+  margin-left: 200px;
+  margin-right: 50px;
+  padding-top: 40px;
+}
+h1 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #fff0f0;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 60px;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 52px;
+  color: #fff0f0;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-top: 0;
+}
+.about-me {
+  background-color: #eeeeee;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding-top: 30px;
+}
+.about-me p {
+  margin: 0;
+  text-align: left;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
