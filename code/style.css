@@ -17,10 +17,14 @@ body {
 }
 /* Main section */
 header {
-  background-color: #835858;
-  background-size: cover;
-  width: 100%;
+  background-color: black;
   display: flex;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: auto;
+  padding: 0;
 }
 .header-text {
   display: block;
@@ -49,6 +53,9 @@ h1 {
   font-weight: 400;
   letter-spacing: 1px;
   padding-top: 60px;
+}
+.name {
+  font-weight: bolder;
 }
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -79,8 +86,6 @@ h3 {
 }
 .profile-img img {
   width: 100%;
-  height: auto;
-  margin: auto;
 }
 .about-me {
   background-color: #eeeeee;
@@ -88,18 +93,37 @@ h3 {
   margin: 0;
   padding-top: 30px;
 }
+.line {
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  background-color: #835858;
+  padding: 1.5px;
+  margin-bottom: 8px;
+  padding-left: 20px;
+}
+.circle {
+  background-color: #835858;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: -10px;
+  margin-right: 12px;
+  padding: 0;
+}
 .about-me p {
   display: flex;
   flex-direction: column;
   margin: 0;
-  align-items: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  font-size: 25px;
-  margin-left: 200px;
-  margin-right: 200px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  font-size: 28px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: left;
 }
 /* END OF MAIN SECTION */
 /* Tech section */
@@ -110,9 +134,10 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 60px;
 }
-.tech h2 {
+.tech h2,
+.featured-projects h2 {
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
@@ -122,11 +147,22 @@ h3 {
 }
 .tech p {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  padding-top: 30px;
+  font-size: 20px;
+  padding-top: 40px;
   margin-left: 400px;
   margin-right: 400px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   align-items: center;
   text-align: center;
+}
+/* END OF TECH SECTION */
+/* Featured projects and other projects section */
+.featured-projects {
+  background-color: #eeeeee;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 60px;
 }
