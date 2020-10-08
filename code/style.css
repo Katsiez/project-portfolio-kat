@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
 *,
 *::before,
 *::after {
@@ -172,6 +173,41 @@ h3 {
   display: flex;
   flex-direction: column;
   font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  padding: 15px;
+  margin: 10px;
+}
+.card p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.card a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.projects-bold {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #d9adad;
+  letter-spacing: 0px;
+}
+.tag {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background-color: #d9adad;
+  padding: 2px;
+}
+.link {
+  color: #d9adad;
+  text-decoration: underline;
+  font-weight: bolder;
 }
 /* FOOTER */
 footer {
