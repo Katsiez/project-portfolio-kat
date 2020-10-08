@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Katarina's portfolio</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/png" href="/assets/favicon.png"/>
   </head>
   <body>
     <!-- Main section -->
     <div container="main">
       <header>
         <div class="header-text">
-          <h1>portfolio: <span class="name">katarina torninger</span></h1>
+          <h1>portfolio: <span class="bolded">katarina torninger</span></h1>
           <h2>front end<br />developer</h2>
           <br />
           <h3>+ tech recruiter</h3>
@@ -64,9 +65,78 @@
       </div>
       <!-- END OF TECH SECTION -->
       <!-- Featured projects & Other projects section -->
-      <div container="featured-projects">
+      <section class="featured-projects">
+        <h2>FEATURED PROJECTS</h2>
         <div class="featured-projects">
-          <h2>FEATURED PROJECTS</h2>
+            <!-- BUSINESS SITE PROJECT -->
+          <article class="card">
+              <a href="">
+                  <img class="card-img" src="/assets/site.png"/>
+              </a>
+              <p>
+                  <span class="bold">Business Site</span>
+                  <a href="githublinkhere" target="_blank">
+                      Responsive website built using flexbox, with an HTML form and JS accordion section. <span class="bold"> >> </span>
+                  </a>
+              </p>
+              <div class="featured-projects-tech">
+                  <div>HTML</div>
+                  <div>CSS</div>
+                  <div>JS</div>
+              </div>
+          </article>
+          <!-- WEATHER APP -->
+          <article class="card">
+            <a href="">
+                <img class="card-img" src="/assets/wheatherapp.png"/>
+            </a>
+            <p>
+                <span class="bold">Weather App</span>
+                <a href="githublinkhere" target="_blank">
+                    Responsive Toronto, Canada weather app displaying both current temperature, as well as forecast for the next five days. Built mostly with JS, with data fetched from an API. <span class="bold"> >> </span>
+                </a>
+            </p>
+            <div class="featured-projects-tech">
+                <div>HTML</div>
+                <div>CSS</div>
+                <div>JS</div>
+                <div>APIs</div>
+            </div>
+        </article>
+         <!-- MEMORY CARD GAME -->
+         <article class="card">
+            <a href="">
+                <img class="card-img" src="/assets/memory.png"/>
+            </a>
+            <p>
+                <span class="bold">Memory Card game</span>
+                <a href="githublinkhere" target="_blank">
+                    One of my very first projects, a memory card game with a countdown, built with primarily CSS and JS. Reminiscent of my childhood!<span class="bold"> >> </span>
+                </a>
+            </p>
+            <div class="featured-projects-tech">
+                <div>HTML</div>
+                <div>CSS</div>
+                <div>JS</div>
+            </div>
+        </article>
+         <!-- FLARE -->
+         <article class="card">
+            <a href="">
+                <img class="card-img" src="/assets/flare.png"/>
+            </a>
+            <p>
+                <span class="bold">Flare furniture store</span>
+                <a href="githublinkhere" target="_blank">
+                    Flare is a pretend furniture store and it was my very first static website that I built. Responsive with focus on layouts and design. <span class="bold"> >> </span>
+                </a>
+            </p>
+            <div class="featured-projects-tech">
+                <div>HTML</div>
+                <div>CSS</div>
+                <div>Bootstrap</div>
+            </div>
+        </article>
         </div>
       </div>
     </div>
