@@ -137,8 +137,8 @@ h3 {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   background-color: #d9adad;
-  width: fit-content;
   padding: 4px 4px 4px;
+  text-align: center;
 }
 .tech p {
   font-family: "Montserrat", sans-serif;
@@ -165,13 +165,17 @@ h3 {
   padding-top: 50px;
 }
 /* PROJECTS SECTION */
-.featured-projects {
+.featured-projects-container {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  width: 100%;
 }
 .card {
   display: flex;
   flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   padding: 15px;
@@ -187,6 +191,9 @@ h3 {
   color: black;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
+}
+.card-img {
+  width: 100%;
 }
 .projects-bold {
   font-size: 18px;
