@@ -132,13 +132,15 @@ h3 {
   padding-top: 50px;
 }
 .tech h2,
-.featured-projects h2 {
+.featured-projects h2,
+.skills-section h2 {
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   background-color: #d9adad;
   padding: 4px 4px 4px;
   text-align: center;
+  width: fit-content;
 }
 .tech p {
   font-family: "Montserrat", sans-serif;
@@ -215,6 +217,18 @@ h3 {
   color: #d9adad;
   text-decoration: underline;
   font-weight: bolder;
+}
+/* SKILLS SECTION */
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skills-section-container div {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  line-height: 30px;
 }
 /* FOOTER */
 footer {
