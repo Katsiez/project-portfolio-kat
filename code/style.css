@@ -89,7 +89,7 @@ h3 {
   background-color: #eeeeee;
   width: 100%;
   margin: 0;
-  padding-top: 30px;
+  padding: 100px;
 }
 .line {
   display: inline-block;
@@ -118,7 +118,7 @@ h3 {
   margin-left: 20px;
   margin-right: 10px;
   padding-bottom: 50px;
-  text-align: center;
+  text-align: left;
 }
 /* END OF MAIN SECTION */
 /* Tech section */
@@ -133,7 +133,8 @@ h3 {
 }
 .tech h2,
 .featured-projects h2,
-.skills-section h2 {
+.skills-section h2,
+.for-more-section h2 {
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
@@ -221,15 +222,48 @@ h3 {
 /* SKILLS SECTION */
 .skills-section {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #eeeeee;
+  width: 100%;
+}
+.skills-section-container {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  line-height: 30px;
+  display: block;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
 }
 .skills-section-container div {
-  font-family: "Roboto", sans-serif;
-  font-weight: lighter;
-  line-height: 30px;
+  margin: 1px;
 }
+/* FOR MORE SECTION */
+.for-more-section {
+  background-color: #d9adad;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.for-more-section-container {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+}
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: #696969;
+  font-weight: 400px;
+  display: block;
+}
+
 /* FOOTER */
 footer {
   background-color: #d9adad;
