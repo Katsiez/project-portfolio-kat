@@ -35,14 +35,6 @@ header {
   margin: auto;
   padding: 0;
 }
-/* .header-text {
-  display: flex;
-  flex-direction: column;
-  padding-left: 40px;
-  padding-top: 100px;
-  margin-left: 10px;
-  padding-bottom: 20px;
-} */
 .header-socials {
   display: inline-flex;
   position: absolute;
@@ -193,15 +185,16 @@ h3 {
 }
 .tech h2,
 .featured-projects h2,
-.skills-section h2,
-.for-more-section h2 {
+.for-more-section h2,
+.skills-section h2 {
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   background-color: #d9adad;
-  padding: 12px 10px 12px;
+  padding: 5px 5px;
   text-align: center;
-  width: contain;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 .tech p {
   font-family: "Montserrat", sans-serif;
@@ -230,19 +223,15 @@ h3 {
 /* PROJECTS SECTION */
 .featured-projects-container {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  width: 100%;
 }
 .card {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  flex: 1;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  padding: 15px;
-  margin: 10px;
+  font-family: "Roboto" sans-serif;
+  margin: 15px;
+  padding: 10px;
 }
 .card p {
   font-size: 20px;
@@ -280,30 +269,37 @@ h3 {
   font-weight: bolder;
 }
 /* SKILLS SECTION */
-.skills-section {
+.skills-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex-flow: wrap;
   justify-content: center;
+  text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #eeeeee;
-  width: 100%;
 }
-.skills-section-container {
+.skills-container h5 {
+  color: #d9adad;
   font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.skills-container div {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: lighter;
-  line-height: 30px;
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
+  letter-spacing: 1;
+  line-height: 1.2;
 }
-.skills-section-container div {
-  margin: 1px;
+.skills-container div {
+  margin: 10px;
 }
+
 /* FOR MORE SECTION */
 .for-more-section {
-  background-color: #d9adad;
+  background-color: #f8f0f0;
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -311,13 +307,29 @@ h3 {
   flex-direction: column;
   align-items: center;
 }
+.for-more-section a {
+  text-decoration: none;
+}
 
 h4 {
   font-family: "Roboto", sans-serif;
-  font-size: 25px;
-  color: #696969;
-  font-weight: bold;
-  display: block;
+  font-size: 18px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  white-space: pre-wrap;
+  color: #ad9d9d;
+  font-weight: 300;
+}
+.for-more-section-container {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  white-space: pre-wrap;
 }
 
 /* FOOTER */
@@ -340,6 +352,7 @@ h5 {
   display: flex;
   line-height: 5px;
   letter-spacing: 0;
+  font-weight: 500;
 }
 .bold {
   font-weight: 400;
