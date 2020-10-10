@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
 html,
 body {
   width: 100%;
@@ -54,7 +55,6 @@ header {
   cursor: pointer;
   border-radius: 50%;
 }
-
 .icon-linkedin:hover,
 .icon-github:hover {
   border: #d9adad solid 2px fill;
@@ -63,13 +63,11 @@ header {
   width: 100px;
   height: 100px;
 }
-
 header .icon-linkedin,
 header .icon-github {
   width: 100%;
   height: 100%;
 }
-
 .icon-linkedin {
   background-image: url("/assets/linkedin.svg");
   background-size: cover;
@@ -78,7 +76,6 @@ header .icon-github {
   background-image: url("/assets/github.svg");
   background-size: cover;
 }
-
 .header-name-description {
   display: flex;
   flex-direction: column;
@@ -86,7 +83,6 @@ header .icon-github {
   margin-top: 140px;
   padding-left: 50px;
 }
-
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
@@ -96,12 +92,10 @@ h1 {
   line-height: 1;
   padding-top: 5px;
 }
-
 .name-highlight {
   font-family: "Montserrat";
   font-weight: 500;
 }
-
 h2 {
   font-family: "Montserrat", sans-serif;
   text-transform: lowercase;
@@ -117,7 +111,6 @@ h3 {
   font-size: 35px;
   margin: 0;
 }
-
 .profile-pic {
   position: absolute;
   top: 70%;
@@ -127,7 +120,6 @@ h3 {
   border-radius: 50%;
   border: solid 3px #ffffff;
 }
-
 .bolded {
   font-size: 20px;
   font-weight: 500;
@@ -235,7 +227,6 @@ h4 {
   flex-wrap: wrap;
   padding-top: 20px;
 }
-
 .card {
   display: flex;
   flex-direction: column;
@@ -379,7 +370,6 @@ h4 {
   letter-spacing: 0px;
   margin: 0 auto;
 }
-
 .thoughts-container a {
   text-decoration: underline;
   font-size: 16px;
@@ -460,7 +450,6 @@ h4 {
   margin: 10px;
 }
 /* FOR MORE SECTION */
-
 .social-media-bottom {
   background-color: #f8f0f0;
   display: flex;
@@ -470,14 +459,12 @@ h4 {
   padding-top: 50px;
   margin: 0;
 }
-
 .bottom-links {
   display: flex;
   justify-content: center;
   padding-bottom: 30px;
   padding-top: 60px;
 }
-
 .bottom-link {
   border-radius: 50%;
   width: 120px;
@@ -488,17 +475,14 @@ h4 {
   cursor: pointer;
   text-indent: -9999px;
 }
-
 .bottom-linkedin {
   background-image: url(/assets/Lin.svg);
   background-size: cover;
 }
-
 .bottom-github {
   background-image: url(/assets/gHub.svg);
   background-size: cover;
 }
-
 .bottom-stackoverflow {
   background-image: url(/assets/so.svg);
   background-size: cover;
@@ -519,7 +503,6 @@ h4 {
   justify-content: center;
   align-items: center;
 }
-
 .link-button h5 {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
@@ -620,7 +603,6 @@ footer p {
     padding-bottom: 20px;
     padding-top: 20px;
   }
-
   .other-projects-container,
   .thoughts-container {
     padding-top: 20px;
@@ -685,7 +667,6 @@ footer p {
     padding-bottom: 20px;
     padding-top: 20px;
   }
-
   .other-projects-container,
   .thoughts-container {
     padding-top: 20px;
