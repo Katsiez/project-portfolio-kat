@@ -185,12 +185,8 @@ h3 {
   padding-bottom: 50px;
   padding-top: 50px;
 }
-.tech h2,
-.featured-projects h2,
-.for-more-section h2,
-.skills-section h2,
-.social-media-bottom h2 {
-  font-size: 30px;
+h4 {
+  font-size: 25px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   background-color: #d9adad;
@@ -198,6 +194,10 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   font-weight: 500;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 .tech p {
   font-family: "Montserrat", sans-serif;
@@ -237,10 +237,10 @@ h3 {
   flex-wrap: wrap;
   font-size: 20px;
   font-family: "Roboto" sans-serif;
-  margin: 15px;
+  margin: 5px;
   width: 400px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .card p {
   font-size: 20px;
@@ -255,6 +255,11 @@ h3 {
 }
 .card-img {
   width: 100%;
+  border: 3px solid #f8f0f0;
+}
+.card-img:hover {
+  opacity: 0.6;
+  transition: 0.2s ease-in-out;
 }
 .projects-bold {
   font-size: 18px;
@@ -286,7 +291,17 @@ h3 {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #eeeeee;
+  background-color: #ffffff;
+}
+.skills-section h4 {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  background-color: #d9adad;
 }
 .skills-container h5 {
   color: #d9adad;
@@ -313,8 +328,9 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin: 0;
 }
 
 .bottom-links {
@@ -326,8 +342,8 @@ h3 {
 
 .bottom-link {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   background: none;
   background-repeat: no-repeat;
   background-position: center center;
@@ -354,8 +370,8 @@ h3 {
 .bottom-github:hover,
 .bottom-linkedin:hover {
   transition: 0.3s ease-in-out;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   opacity: 0.7;
 }
 .link-button {
@@ -367,13 +383,16 @@ h3 {
 }
 
 .link-button h5 {
-  font-size: 15px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   color: #7f7575;
-  font-weight: bold;
+  font-weight: 500;
   margin-top: 10px;
   text-decoration: none;
   line-height: 2;
+  letter-spacing: 1px;
+  padding: 10px;
 }
 /* FOOTER */
 footer {
