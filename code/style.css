@@ -343,11 +343,79 @@ h4 {
 .other-projects span {
   font-size: 16px;
 }
+.to-link {
+  color: #7f7575;
+  text-decoration: underline;
+  font-weight: bolder;
+}
 /* MY THOUGHTS ABOUT CODE */
-.thoughts-container {
-  padding-bottom: 50px;
+.thoughts-section {
   padding-top: 50px;
   background-color: #f8f0f0;
+}
+.thoughts-bold {
+  font-size: 16px;
+  text-decoration: underline;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #7f7575;
+  letter-spacing: 0px;
+}
+.thoughts-container {
+  padding-top: 30px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 auto;
+  padding: 60px;
+}
+.date {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #000000;
+  letter-spacing: 0px;
+  margin: 0 auto;
+}
+
+.thoughts-container a {
+  text-decoration: underline;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+.articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.articles-img {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+}
+.text {
+  font-size: 16px;
+  padding-top: 0%;
+  font-family: "Montserrat", sans-serif;
+  color: #7f7575;
+  font-weight: 600;
+}
+.article-text {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  font-weight: 300;
+  font-size: 16px;
 }
 /* SKILLS SECTION */
 .skills-container {
@@ -514,7 +582,7 @@ footer p {
     padding-left: 200px;
   }
   span.bolded {
-    font-size: 20px;
+    font-size: 25px;
   }
   .tech p {
     font-size: 30px;
@@ -549,13 +617,21 @@ footer p {
     padding-top: 20px;
   }
 
-  .other-projects-container {
+  .other-projects-container,
+  .thoughts-container {
     padding-top: 20px;
     width: 80%;
     padding: 10px;
   }
-  h2,
-  h3,
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 23px;
+  }
   h4 {
     font-size: 20px;
   }
@@ -569,6 +645,20 @@ footer p {
   }
   .card-img:hover + .centered {
     display: none;
+  }
+  .thoughts-container a {
+    font-size: 18px;
+    color: black;
+    font-weight: lighter;
+    text-decoration: underline #000000;
+  }
+  .thoughts-bold {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline #7f7575;
+  }
+  .articles {
+    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -592,7 +682,8 @@ footer p {
     padding-top: 20px;
   }
 
-  .other-projects-container {
+  .other-projects-container,
+  .thoughts-container {
     padding-top: 20px;
     width: 80%;
     padding: 10px;
@@ -605,7 +696,7 @@ footer p {
   h2,
   h3,
   h4 {
-    font-size: 37px;
+    font-size: 28px;
   }
   h5 {
     font-size: 32px;
@@ -627,14 +718,29 @@ footer p {
   }
   span.projects-bold,
   span.stack,
-  .tag {
+  .tag,
+  span.date {
     font-size: 22px;
   }
   .card a {
     font-size: 25px;
     line-height: 1.5;
   }
+  .thoughts-container a {
+    font-size: 25px;
+    color: black;
+    font-weight: lighter;
+    text-decoration: underline #000000;
+  }
+  .thoughts-bold {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline #7f7575;
+  }
   .card-img:hover + .centered {
     display: none;
+  }
+  .articles {
+    flex-wrap: wrap;
   }
 }
