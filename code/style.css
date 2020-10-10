@@ -23,7 +23,7 @@ header {
       rgba(53, 52, 52, 0.726),
       rgba(255, 255, 255, 0.301)
     ),
-    url(/assets/mountain.jpg);
+    url(./assets/mountain.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -69,11 +69,11 @@ header .icon-github {
   height: 100%;
 }
 .icon-linkedin {
-  background-image: url("/assets/linkedin.svg");
+  background-image: url("./assets/linkedin.svg");
   background-size: cover;
 }
 .icon-github {
-  background-image: url("/assets/github.svg");
+  background-image: url("./assets/github.svg");
   background-size: cover;
 }
 .header-name-description {
@@ -476,15 +476,15 @@ h4 {
   text-indent: -9999px;
 }
 .bottom-linkedin {
-  background-image: url(/assets/Lin.svg);
+  background-image: url(./assets/Lin.svg);
   background-size: cover;
 }
 .bottom-github {
-  background-image: url(/assets/gHub.svg);
+  background-image: url(./assets/gHub.svg);
   background-size: cover;
 }
 .bottom-stackoverflow {
-  background-image: url(/assets/so.svg);
+  background-image: url(./assets/so.svg);
   background-size: cover;
   border: 8px solid #f8f0f0;
 }
