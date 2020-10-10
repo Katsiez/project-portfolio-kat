@@ -213,7 +213,7 @@ h4 {
   color: #d9adad;
 }
 /* END OF TECH SECTION */
-/* Featured projects and other projects section */
+/* FEATURED PROJECTS */
 .featured-projects {
   background-color: #eeeeee;
   display: flex;
@@ -291,7 +291,40 @@ h4 {
 /* OTHER PROJECTS */
 .other-projects {
   background-color: #eeeeee;
+  padding-bottom: 50px;
+  padding-top: 30px;
 }
+.other-projects a {
+  text-decoration: underline;
+  color: black;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+.other-projects-container {
+  padding-top: 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+}
+.stack {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background-color: #7f7575;
+  color: white;
+  padding: 2px;
+}
+.other-projects-container p {
+  padding: 2px;
+}
+.other-projects span {
+  font-size: 16px;
+}
+
 /* SKILLS SECTION */
 .skills-container {
   display: flex;
