@@ -33,3 +33,4 @@ Icons are from https://www.flaticon.com 📷
 ## For portfolio Lighthouse score, please see assets/portfolio-score.png
 
 # View my deployed project here!
+https://katarina-torninger.netlify.app/
